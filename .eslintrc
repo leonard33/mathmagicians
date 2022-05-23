@@ -1,7 +1,4 @@
 {
-    "extends":"react-app",
-    "rules": {
-        "comma-dangle": "off",
-        "@typescript-eslint/comma-dangle": "off"
-      }
+    "extends":"react-app"
+
 }
