@@ -1,11 +1,10 @@
 /* eslint-disable react/button-has-type */
-/* eslint-disable no-plusplus */
 import React, { Component } from 'react';
 import './Calculate.css';
 
 const createDigit = () => {
   const digits = [];
-  for (let i = 9; i >= 1; i--) {
+  for (let i = 9; i >= 1; i-=1) {
     digits.push(<button key={i}>{i}</button>);
   }
   return digits;
