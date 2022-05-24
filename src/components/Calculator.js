@@ -1,5 +1,5 @@
 /* eslint-disable react/button-has-type */
-/*eslint no-plusplus: ["error", { "allowForLoopAfterthoughts": true }]*/
+/* eslint-disable no-plusplus */
 import React, { Component } from 'react';
 import './Calculate.css';
 
