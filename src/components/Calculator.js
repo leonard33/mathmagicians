@@ -1,4 +1,3 @@
-/* eslint-disable react/button-has-type */
 import React, { Component } from 'react';
 import './Calculate.css';
 
@@ -9,8 +8,11 @@ const createDigit = () => {
   }
   return digits;
 };
-// eslint-disable-next-line react/prefer-stateless-function
 export default class Calculator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
     return (
       <div className="calculate">
@@ -18,22 +20,23 @@ export default class Calculator extends Component {
         <div className="calc-digits">
           <div className="calc-left">
             <div className="operations-top">
-              <button>AC</button>
-              <button>+/-</button>
-              <button>%</button>
+              <button type='button'>AC</button>
+              <button type='button'>+/-</button>
+              <button type='button'>%</button>
             </div>
             <div className="digits">
               {createDigit()}
-              <button>0</button>
-              <button>.</button>
+              <button type='button'>0</button>
+              <button type='button'>.</button>
             </div>
           </div>
           <div className="calc-right">
             <div className="operations-right">
-              <button>/</button>
-              <button>*</button>
-              <button>-</button>
-              <button>=</button>
+              <button type='button'>/</button>
+              <button type='button'>*</button>
+              <button type='button'>+</button>
+              <button type='button'>-</button>
+              <button type='button'>=</button>
             </div>
           </div>
         </div>
