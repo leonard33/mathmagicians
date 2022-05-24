@@ -9,7 +9,7 @@ const createDigit = () => {
   }
   return digits;
 };
-
+// eslint-disable-next-line react/prefer-stateless-function
 export default class Calculator extends Component {
   render() {
     return (
