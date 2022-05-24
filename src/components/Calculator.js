@@ -18,23 +18,23 @@ export default class Calculator extends Component {
         <div className="calc-digits">
           <div className="calc-left">
             <div className="operations-top">
-            <button>AC</button>
-            <button>+/-</button>
-            <button>%</button>
+              <button>AC</button>
+              <button>+/-</button>
+              <button>%</button>
+              </div>
+              <div className="digits">
+              {createDigit()}
+              <button>0</button>
+              <button>.</button>
             </div>
-            <div className="digits">
-            {createDigit()}
-            <button>0</button>
-            <button>.</button>
-          </div>
           </div>
           <div className="calc-right">
             <div className="operations-right">
-            <button>/</button>
-            <button>*</button>
-            <button>-</button>
-            <button>=</button>
-          </div>
+              <button>/</button>
+              <button>*</button>
+              <button>-</button>
+              <button>=</button>
+            </div>
           </div>
         </div>
       </div>
