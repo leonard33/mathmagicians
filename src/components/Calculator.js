@@ -23,10 +23,10 @@ export default class Calculator extends Component {
               <button>%</button>
             </div>
             <div className="digits">
-                {createDigit()}
-                <button>0</button>
-                <button>.</button>
-              </div>
+              {createDigit()}
+              <button>0</button>
+              <button>.</button>
+            </div>
           </div>
           <div className="calc-right">
             <div className="operations-right">
