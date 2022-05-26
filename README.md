@@ -35,7 +35,9 @@ git clone https://github.com/leonard33/mathmagicians.git
 Once the files are on your machine, open the Mathemagician folder in Visual Studio Code.
 
 ### Deployment
-After opening the files in Visual Studio Code, Go to your terminal and writ comand npm start to launch the files with your browser.
+After opening the files in Visual Studio Code, Go to your terminal and write comand:
+ run npm install command to install node modules. then.
+ npm start to launch the files with your browser.
 
 
 
