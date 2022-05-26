@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 import './Calculate.css';
 import calculate from '../logic/calculate';
-
-
-// const operation = ['-', '+', '/', '*', '.'];
-// console.log(operation);
 export default class Calculator extends Component {
   constructor(props) {
     super(props);
