@@ -27,26 +27,26 @@ export default function Calculator() {
       <div className="display"><span>{calc.next || calc.total || '0'}</span></div>
       <div className="calc-digits">
         <div className="calc-left">
-            <div className="operations-top">
+          <div className="operations-top">
               <button type="button" onClick={() => updateState('AC')}>AC</button>
               <button type="button" onClick={() => updateState('+/-')}>+/-</button>
               <button type="button" onClick={() => updateState('%')}>%</button>
             </div>
-            <div className="digits">
+          <div className="digits">
               {createDigit()}
               <button type="button" onClick={() => updateState('0')}>0</button>
               <button type="button" onClick={() => updateState('.')}>.</button>
             </div>
-          </div>
+        </div>
         <div className="calc-right">
-            <div className="operations-right">
+          <div className="operations-right">
               <button type="button" onClick={() => updateState('÷')}>/</button>
               <button type="button" onClick={() => updateState('x')}>*</button>
               <button type="button" onClick={() => updateState('+')}>+</button>
               <button type="button" onClick={() => updateState('-')}>-</button>
               <button type="button" onClick={() => updateState('=')}>=</button>
             </div>
-          </div>
+        </div>
       </div>
     </div>
   );
