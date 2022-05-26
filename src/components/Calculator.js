@@ -17,7 +17,7 @@ export default class Calculator extends Component {
     this.updateState = this.updateState.bind(this);
   }
 
-// state updating handler
+  // state updating handler
   updateState = (buttonName) => {
     const temp = { ...this.state };
     this.setState(calculate(temp, buttonName));
@@ -32,11 +32,12 @@ export default class Calculator extends Component {
     }
     return digits;
   };
-  render() {
 
+  render() {
+    const { next, total } = this.state;
     return (
       <div className="calculate">
-        <div className="display"><span>{this.state.next || this.state.total || "0"}</span></div>
+        <div className="display"><span>{next || total || '0'}</span></div>
         <div className="calc-digits">
           <div className="calc-left">
             <div className="operations-top">
