@@ -28,24 +28,24 @@ export default function Calculator() {
       <div className="calc-digits">
         <div className="calc-left">
           <div className="operations-top">
-              <button type="button" onClick={() => updateState('AC')}>AC</button>
-              <button type="button" onClick={() => updateState('+/-')}>+/-</button>
-              <button type="button" onClick={() => updateState('%')}>%</button>
-            </div>
+            <button type="button" onClick={() => updateState('AC')}>AC</button>
+            <button type="button" onClick={() => updateState('+/-')}>+/-</button>
+            <button type="button" onClick={() => updateState('%')}>%</button>
+          </div>
           <div className="digits">
-              {createDigit()}
-              <button type="button" onClick={() => updateState('0')}>0</button>
-              <button type="button" onClick={() => updateState('.')}>.</button>
-            </div>
+            {createDigit()}
+            <button type="button" onClick={() => updateState('0')}>0</button>
+            <button type="button" onClick={() => updateState('.')}>.</button>
+          </div>
         </div>
         <div className="calc-right">
           <div className="operations-right">
-              <button type="button" onClick={() => updateState('÷')}>/</button>
-              <button type="button" onClick={() => updateState('x')}>*</button>
-              <button type="button" onClick={() => updateState('+')}>+</button>
-              <button type="button" onClick={() => updateState('-')}>-</button>
-              <button type="button" onClick={() => updateState('=')}>=</button>
-            </div>
+            <button type="button" onClick={() => updateState('÷')}>/</button>
+            <button type="button" onClick={() => updateState('x')}>*</button>
+            <button type="button" onClick={() => updateState('+')}>+</button>
+            <button type="button" onClick={() => updateState('-')}>-</button>
+            <button type="button" onClick={() => updateState('=')}>=</button>
+          </div>
         </div>
       </div>
     </div>
