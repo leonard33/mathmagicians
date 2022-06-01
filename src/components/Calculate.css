@@ -8,12 +8,25 @@ body {
   justify-content: center;
 }
 
+.calcl-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.description {
+  display: flex;
+  flex: 1;
+  max-width: 600px;
+  height: 70vh;
+}
+
 .calculate {
+  display: flex;
+  flex-direction: column;
   border-radius: 10px;
-  width: 100vw;
   max-width: 400px;
   overflow: hidden;
-  margin-top: 8rem;
 }
 
 .display {
