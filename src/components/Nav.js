@@ -7,17 +7,17 @@ const Nav = () => {
     <div className='container'>
       <div className="logo">Math Magician</div>
       <ul>
-          <Link className="lang" to="/">
-           <li>Home</li>
-         </Link>
-          <Link className="lang" to="/calculator">
-             <li>Calcultor</li>
+        <Link className="lang" to="/">
+            <li>Home</li>
           </Link>
-          <Link className="lang" to="/quotes">
-             <li>Quotes</li>
+        <Link className="lang" to="/calculator">
+            <li>Calcultor</li>
           </Link>
-        </ul>
-      </div>
+        <Link className="lang" to="/quotes">
+            <li>Quotes</li>
+          </Link>
+    </ul>
+    </div>
   );
 };
 
