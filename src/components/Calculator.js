@@ -23,6 +23,8 @@ export default function Calculator() {
   };
 
   return (
+    <div className= "calcl-container">
+      <div className="description">Let's do some math !</div>
     <div className="calculate">
       <div className="display"><span>{calc.next || calc.total || '0'}</span></div>
       <div className="calc-digits">
@@ -48,6 +50,7 @@ export default function Calculator() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.data {
+  width: 40vw;
+  line-height: 26px;
+  font-size: 18px;
+  overflow-wrap: break-word;
+  margin: 50px auto;
+  justify-self: center;
+  align-self: center;
+  padding: 20px;
+}

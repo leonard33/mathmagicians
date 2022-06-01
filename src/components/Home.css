@@ -1,0 +1,14 @@
+.loren {
+  width: 90vw;
+  line-height: 26px;
+  font-size: 18px;
+  overflow-wrap: break-word;
+  margin: 30px auto;
+  justify-self: center;
+  align-self: center;
+  padding: 20px;
+}
+
+.loren div {
+  margin-top: 10px;
+}
