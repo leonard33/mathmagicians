@@ -5,11 +5,11 @@ export default function Home() {
      return (
        <>
       <div>
-          Welcome to our page !
-    </div>
-      <div className="loren">
+          <h2>Welcome to our page !</h2>
+      </div>
+         <div className="loren">
           Enjoy using the calculator to solve your mathematical problems
-    </div>
-    </>
+      </div>
+       </>
   );
 }
