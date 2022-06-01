@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import { React, useState } from 'react';
 import './Calculate.css';
 import calculate from '../logic/calculate';
