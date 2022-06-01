@@ -1,16 +1,15 @@
 import React from 'react';
 import './Home.css';
 
-export default function Home () {
+export default function Home() {
      return (
-    <>
-    <div>Welcome to our page !
-
+       <>
+      <div>
+          Welcome to our page !
     </div>
-    <div className="loren">
+      <div className="loren">
           Enjoy using the calculator to solve your mathematical problems
-        </div>
-        </>
-    )
+    </div>
+    </>
+  );
 }
-

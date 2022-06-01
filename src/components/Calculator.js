@@ -24,11 +24,11 @@ export default function Calculator() {
 
   return (
     <div className="calcl-container">
-      <div className="description">Let&lsquo;s do some math 	&#33;</div>
+      <div className="description">Let`&lsquo;`s do some math 	`&#33;`</div>
       <div className="calculate">
         <div className="display"><span>{calc.next || calc.total || '0'}</span></div>
         <div className="calc-digits">
-        <div className="calc-left">
+          <div className="calc-left">
           <div className="operations-top">
             <button type="button" onClick={() => updateState('AC')}>AC</button>
             <button type="button" onClick={() => updateState('+/-')}>+/-</button>
@@ -40,7 +40,7 @@ export default function Calculator() {
             <button type="button" onClick={() => updateState('.')}>.</button>
           </div>
         </div>
-        <div className="calc-right">
+          <div className="calc-right">
           <div className="operations-right">
             <button type="button" onClick={() => updateState('÷')}>/</button>
             <button type="button" onClick={() => updateState('x')}>*</button>
@@ -49,7 +49,7 @@ export default function Calculator() {
             <button type="button" onClick={() => updateState('=')}>=</button>
           </div>
         </div>
-      </div>
+        </div>
       </div>
     </div>
   );
