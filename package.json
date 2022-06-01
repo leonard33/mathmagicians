@@ -41,7 +41,10 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-plugin-react": "^7.30.0",
     "stylelint": "^14.8.3",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0"
   }
 }
