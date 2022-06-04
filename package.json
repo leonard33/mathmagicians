@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "react-test-renderer": "^18.1.0",
     "stylelint": "^14.8.3",
     "stylelint-config-standard": "^25.0.0"
   }

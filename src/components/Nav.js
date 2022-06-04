@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div className='container'>
       <div className="logo">Math Magician</div>
-      <ul>
+      <ul data-testid="mylist">
           <Link className="lang" to="/">
            <li>Home</li>
          </Link>

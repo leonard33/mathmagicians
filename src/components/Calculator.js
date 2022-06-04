@@ -24,7 +24,7 @@ export default function Calculator() {
 
   return (
     <div className="calcl-container">
-      <div className="description">Lets do some math</div>
+      <div className="description"><h2 data-testid="mytitle">Lets do some math</h2></div>
       <div className="calculate">
       <div className="display"><span>{calc.next || calc.total || '0'}</span></div>
       <div className="calc-digits">
