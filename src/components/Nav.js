@@ -2,9 +2,9 @@ import React from 'react';
 import './Nav.css';
 import { Link } from 'react-router-dom';
 
-const Nav = () => {
+export default function Nav() {
   return (
-    <div className='container'>
+    <div className="container">
       <div className="logo">Math Magician</div>
       <ul data-testid="mylist">
           <Link className="lang" to="/">
@@ -19,6 +19,4 @@ const Nav = () => {
         </ul>
       </div>
   );
-};
-
-export default Nav;
+}
