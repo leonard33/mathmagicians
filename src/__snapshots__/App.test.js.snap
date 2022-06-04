@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="logo"
+    >
+      Math Magician
+    </div>
+    <ul
+      data-testid="mylist"
+    >
+      <a
+        className="lang"
+        href="/"
+        onClick={[Function]}
+      >
+        <li>
+          Home
+        </li>
+      </a>
+      <a
+        className="lang"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        <li>
+          Calcultor
+        </li>
+      </a>
+      <a
+        className="lang"
+        href="/quotes"
+        onClick={[Function]}
+      >
+        <li>
+          Quotes
+        </li>
+      </a>
+    </ul>
+  </div>
+  <div>
+    Welcome to our page !
+  </div>
+</div>
+`;
