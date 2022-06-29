@@ -9,7 +9,7 @@
 
 ## Live Demo 
 
-Not available.
+[MATHMAGICIAN](https://629ad1320db4081f93ce3c9a--chipper-genie-60fd33.netlify.app/)
 
 
 ## Getting Started
